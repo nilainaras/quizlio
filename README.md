@@ -77,16 +77,6 @@ quizlio/
 └── package.json
 ```
 
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues ! N'hésite pas à :
-
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/ma-fonctionnalite`)
-3. Commit tes changements (`git commit -m 'Ajout de ma fonctionnalité'`)
-4. Push la branche (`git push origin feature/ma-fonctionnalite`)
-5. Ouvrir une Pull Request
-
 ## 📄 Licence
 
 Ce projet est open source et distribué sous licence [MIT](./LICENSE).
