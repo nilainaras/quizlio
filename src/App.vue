@@ -16,7 +16,7 @@
       <p v-if="error" class="error-message">{{ error }}</p>
     </main>
 
-    <footer class="app-footer">© Nix Ras</footer>
+    <footer class="app-footer">© Nilaina Ras</footer>
   </div>
 </template>
 
