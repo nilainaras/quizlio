@@ -1,6 +1,6 @@
 # 🧠 Quizlio
 
-Quizlio est une application de quiz interactive développée avec **Vue 3**, où tu choisis un thème et génères un quiz personnalisé pour tester tes connaissances.
+Quizlio est une application de quiz interactive développée avec **Vue 3**, où tu choisis un thème et génères un quiz personnalisé , via un **API GEMINI-3.5-FLASH-LITE** pour tester tes connaissances
 
 ![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vuedotjs&logoColor=white) ![PrimeVue](https://img.shields.io/badge/PrimeVue-UI-f2b84b?logo=primevue&logoColor=white) ![License: MIT](https://img.shields.io/badge/license-MIT-f2b84b?logo=opensourceinitiative&logoColor=white)
 
