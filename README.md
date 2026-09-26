@@ -1,38 +1,94 @@
-# Quizlio
+# 🧠 Quizlio
 
-This template should help get you started developing with Vue 3 in Vite.
+Quizlio est une application de quiz interactive développée avec **Vue 3**, où tu choisis un thème et génères un quiz personnalisé pour tester tes connaissances.
 
-## Recommended IDE Setup
+![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vuedotjs&logoColor=white) ![PrimeVue](https://img.shields.io/badge/PrimeVue-UI-f2b84b?logo=primevue&logoColor=white) ![License: MIT](https://img.shields.io/badge/license-MIT-f2b84b?logo=opensourceinitiative&logoColor=white)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📸 Aperçu
 
-## Recommended Browser Setup
+<p align="center">
+  <img src="docs/screenshots/theme-menu.png" alt="Écran de sélection de thème" width="48%"/>
+  <img src="docs/screenshots/quiz-question.png" alt="Écran de question" width="48%"/>
+</p>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## ✨ Fonctionnalités
 
-## Customize configuration
+- 🎯 Sélection de thème (Histoire/Mythologie, Science/Tech, Informatique, Sport, Gastronomie, Art, Géographie, Gaming)
+- ❓ Quiz de 20 questions générées dynamiquement, avec plusieurs niveaux de difficulté
+- 📊 Suivi de la progression en temps réel (barre de progression, compteur de questions)
+- ✅ Feedback visuel immédiat (bonne / mauvaise réponse)
+- 🏆 Écran de score final avec possibilité de rejouer
+- 🌙 Interface en thème sombre, responsive
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Stack technique
 
-## Project Setup
+| Techno | Usage |
+|---|---|
+| [Vue 3](https://vuejs.org/) | Framework front-end (Composition API + `<script setup>`) |
+| [Vite](https://vitejs.dev/) | Build tool / dev server |
+| [PrimeVue](https://primevue.org/) | Librairie de composants UI (Card, Tag, ProgressSpinner...) |
+| [PrimeIcons](https://primevue.org/icons/) | Librairie d'icônes |
+| [Tailwind CSS](https://tailwindcss.com/) | Utilitaires CSS |
 
-```sh
+## 🚀 Installation
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/nilainaras/quizlio.git
+cd quizlio
+
+# Installer les dépendances
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Lancer le serveur de développement
 npm run dev
 ```
 
-### Compile and Minify for Production
+L'application sera disponible sur `http://localhost:5173`.
 
-```sh
+### Build de production
+
+```bash
 npm run build
+npm run preview
 ```
+
+## 📁 Structure du projet
+
+```
+quizlio/
+├── docs/
+│   └── screenshots/
+│       ├── theme-menu.png
+│       └── quiz-question.png
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   ├── ThemeMenu.vue      # Écran de sélection de thème
+│   │   ├── QuizQuestion.vue   # Écran de question
+│   │   └── ScoreScreen.vue    # Écran de résultat final
+│   ├── services/
+│   │   └── gemini.js          # Génération des questions
+│   ├── App.vue
+│   ├── main.js
+│   └── style.css
+├── index.html
+└── package.json
+```
+
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues ! N'hésite pas à :
+
+1. Fork le projet
+2. Créer une branche (`git checkout -b feature/ma-fonctionnalite`)
+3. Commit tes changements (`git commit -m 'Ajout de ma fonctionnalité'`)
+4. Push la branche (`git push origin feature/ma-fonctionnalite`)
+5. Ouvrir une Pull Request
+
+## 📄 Licence
+
+Ce projet est open source et distribué sous licence [MIT](./LICENSE).
+
+---
